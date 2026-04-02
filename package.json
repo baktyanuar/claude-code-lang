@@ -1,0 +1,23 @@
+{
+  "name": "claude-code-lang",
+  "version": "2.0.0",
+  "description": "Language, safety hooks, modes and slash commands for Claude Code",
+  "type": "module",
+  "bin": {
+    "claude-code-lang": "./src/cli.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "language",
+    "i18n",
+    "russian",
+    "kazakh",
+    "turkish"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}
